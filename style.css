@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    width: 100%;
+    background: rgb(85, 85, 85);
+    background: radial-gradient(circle, rgba(64, 64, 77, 1) 0%, rgba(35, 36, 43, 1) 50%, rgba(0, 1, 20, 1) 100%);
+    padding: 0 100px;
+    color: white;
+    height: 110px;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(85, 85, 85);
+    background: radial-gradient(circle, rgba(85, 85, 85, 1) 0%, rgba(64, 64, 77, 1) 16%, rgba(35, 36, 43, 1) 50%, rgba(0, 1, 20, 1) 100%);
+    padding: 0 100px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background: rgb(85, 85, 85);
+    background: radial-gradient(circle, rgba(64, 64, 77, 1) 0%, rgba(35, 36, 43, 1) 50%, rgba(0, 1, 20, 1) 100%);
+    color: white;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+footer p b {
+    color: #1565c0;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 100px;
+    color: white;
+}
+
+.img_inicial {
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul a li {
+    list-style: none;
+}
+
+.menu ul a li {
+    text-decoration: none;
+    color: white;
+    font-size: 12;
+    padding: 5px 50px;
+    font-size: 12px;
+}
+
+.menu ul a:hover {
+    text-decoration: none;
+}
+
+.menu ul a li:hover {
+    color: #ffa000;
+}
+
+.dados_inc {
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.dados_inc h1 {
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.dados_inc p {
+    font-size: 14px;
+    width: 65%;
+}
+
+.dados_inc a button {
+    background-color: #ffa20000;
+    border: 2px solid #ffa000;
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #ffa000;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.dados_inc button:hover {
+    background-color: #ffa000;
+    color: white;
+}
+
+.txt_compass {
+    font-size: 180px;
+    z-index: 2;
+    letter-spacing: 20px;
+    font-weight: 700;
+    opacity: 2%;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+.tt {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.ppt {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.cardd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 1, 20, 1);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardd img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.cardd h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    height: 70px;
+}
+
+.cardd h5 {
+    font-size: 13px;
+    color: rgb(70, 72, 94);
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.cardd h1 {
+    color: #ff8400;
+}
+
+.cardd button {
+    width: 60%;
+    background-color: #ffa20000;
+    border: 2px solid #ffa000;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #ffa000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cardd button:hover {
+    background-color: #ffa000;
+    color: white;
+}
+
+.imagem_foto {
+    width: 100%;
+    border: none;
+    border-radius: 1000;
+    margin-bottom: 50px;
+}
